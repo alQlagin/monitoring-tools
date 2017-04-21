@@ -1,0 +1,19 @@
+{
+  "port": 8125,
+  "mgmt_port": 8126,
+  "percentThreshold": [
+    50,
+    75,
+    90,
+    99
+  ],
+  "graphitePort": 2003,
+  "graphiteHost": "graphite",
+  "flushInterval": 10000,
+  "backends": [
+    "./backends/graphite"
+  ],
+  "graphite": {
+    "legacyNamespace": false
+  }
+}
